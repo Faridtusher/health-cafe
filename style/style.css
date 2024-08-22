@@ -64,6 +64,7 @@ header{
    color: white;
    align-items: center;
    justify-content: space-between;
+   width: 90%;
    
 }
 
@@ -117,17 +118,42 @@ header{
 .banner-btn-container{
    display: flex;
    justify-content: space-between;
+   align-items: center;
+   margin-top: 50px;
+   width: 65%;
 }
 
 .download-join-btn{
-
-
+   margin-left: 200px;
 }
 
 .join-btn{
+   border-radius: 42px;
+   background: rgb(230, 83, 60);
+   padding: 16px 40px 16px 40px;
+   color: white;
+   border: none;
+   font-weight: 600;
+   font-size: large;
+}
 
+.join-btn:hover{
+   background-color: brown;
+   text-decoration: underline;
 }
 
 .download-btn{
+   padding: 16px 40px 16px 40px;
+   font-weight: 600;
+   font-size: large;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   border-radius: 42px;
+   color: white;
+   backdrop-filter: blur(20px);
+   background: rgba(255, 255, 255, 0.1);
+}
 
+.download-btn:hover{
+   background-color: rgb(80, 71, 71);
+   text-decoration: underline;
 }
