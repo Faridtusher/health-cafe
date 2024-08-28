@@ -449,6 +449,77 @@ th, td{
 }
 
 
+/* style for team members */
+.common-container {
+   padding: 50px 20px;
+}
+
+.team-section{
+   color: white;
+}
+
+.team-section h1 {
+   font-size: 2.5em;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+.team-section p {
+   font-size: 1.2em;
+   color: #aaa; /* Slightly lighter text for the paragraph */
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.team-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+   gap: 20px; 
+   justify-content: center;
+   margin: 0px 200px;
+}
+
+.team-member {
+   background-color: #2b2b2b;
+   border-radius: 15px;
+   overflow: hidden;
+   position: relative;
+   transition: transform 0.5s, box-shadow 0.3s;
+}
+
+
+.team-member:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.team-member img {
+   width: 100%;
+   height: auto;
+   border-bottom: 5px solid #444; 
+}
+
+.team-member-info {
+   padding: 15px;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent); 
+   color: white;
+}
+
+.team-member-info h3 {
+   margin: 0;
+   font-size: 1.2em;
+   font-weight: bold;
+}
+
+.team-member-info p {
+   margin: 5px 0 0;
+   font-size: 0.9em;
+   color: #ccc; /* Lighter color for the role text */
+}
 
 
 
@@ -564,16 +635,20 @@ th, td{
 .uc-button{
    width: 280px;
  }
+
  .calculate-area{
    margin-top: 50px;
  }
 
 
+ .team-container {
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0px auto;
+}
+
+.team-section{
+   margin: 0px auto;
+}
 
 
-  
-
-   
-   
-   
 }
