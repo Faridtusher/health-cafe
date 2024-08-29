@@ -34,7 +34,6 @@ header{
    border-radius: 39px;
    padding: 10px 0px;
    margin-top: 20px;
-
 }
 
 .nav-container ul li a{
@@ -42,6 +41,11 @@ header{
    text-decoration: none;
    font-weight: 600;
    margin: 0px 20px;
+}
+
+
+.nav-container ul li a:hover{
+   text-decoration: underline;
 }
 
 .home-style{
@@ -80,8 +84,7 @@ header{
    color: white;
    align-items: center;
    justify-content: space-between;
-   width: 95%;
-   
+   width: 95%;   
 }
 
 .banner-title{
@@ -107,8 +110,7 @@ header{
    backdrop-filter: blur(20px);
    background: rgba(255, 255, 255, 0.1);
    padding: 10px;
-   margin-left: 200px;
-   
+   margin-left: 200px;  
 }
 
 .banner-button h1{
@@ -186,7 +188,6 @@ header{
    text-decoration: underline;
 }
 
-
 .fa-solid{
    color: red;
    font-size: larger;
@@ -207,9 +208,6 @@ header{
    padding-bottom: 80px;
 }
 
-.change-habit-intro{
-
-}
 
 .habit-title{
    color: rgb(255, 255, 255);
@@ -236,9 +234,9 @@ header{
 .habit-container{
    display: grid;
    grid-template-columns: repeat(4, 1fr);
-   gap: 10px;
-   
+   gap: 10px;   
 }
+
 
 .habit-details{
    border: 1px solid rgb(91, 88, 81);
@@ -307,9 +305,7 @@ header{
 }
 
 
-
 /* style for BMI calculator */
-
 .bmi-container{
    display: flex;
    justify-content: space-between;
@@ -317,15 +313,6 @@ header{
    border-radius: 10px;
    padding: 20px;
 }
-
-/* .bmi-container{
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   background: rgb(50, 48, 48);
-   border-radius: 10px;
-   padding: 30px 50px;
-} */
-
 
 
 
@@ -466,7 +453,7 @@ th, td{
 
 .team-section p {
    font-size: 1.2em;
-   color: #aaa; /* Slightly lighter text for the paragraph */
+   color: #aaa; 
    text-align: center;
    margin-bottom: 50px;
 }
@@ -518,11 +505,153 @@ th, td{
 .team-member-info p {
    margin: 5px 0 0;
    font-size: 0.9em;
-   color: #ccc; /* Lighter color for the role text */
+   color: #ccc; 
 }
 
 
+/* css for  happy client section */
+.testimonial-carousel h1{
+   text-align: center;
+   color: rgb(255, 255, 255);
+   font-size: 48px;
+   font-weight: 900;
+   margin-bottom: 30px;
+}
 
+.client-container{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   margin: 0px 200px;
+   gap: 10px;
+}
+
+.client-item{
+   border: 1px solid rgb(106, 102, 102);
+   padding: 5px;
+   border-radius: 5px;
+   text-align: center;
+   color: rgba(255, 255, 255, 0.5);
+}
+
+.client-item:hover{
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.client-item img{
+   border-radius: 100px;
+   margin-bottom: 10px;
+}
+.client-item h2{
+   color: white;
+   margin-bottom: 10px;
+}
+
+.client-item h3{
+   color: rgba(255, 255, 255, 0.5);
+   margin-bottom: 10px;
+   margin-bottom: 20px;
+}
+
+.rating-icon{
+   margin-top: 15px;
+}
+
+.fa-star{
+   color: yellow;
+   margin-bottom: 10px;
+}
+
+
+/* style of footer section */
+footer{
+   background: rgb(50, 48, 48);
+}
+
+.footer-container{
+   margin: 0px 200px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   padding: 30px;
+}
+
+.footer-heading h1{
+   color: rgb(230, 83, 60);
+   font-weight: 900;
+   font-style: italic;
+   margin-bottom: 10px;
+}
+
+.footer-heading p{
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 14px;
+   font-weight: 400;
+   margin-top: 30px;
+}
+
+.footer-nav h3{
+   color: rgb(255, 255, 255);
+   font-size: 32px;
+   font-weight: 700;
+}
+
+.footer-nav ul{
+   list-style: none;
+   margin-top: 30px;
+}
+
+.footer-nav li{
+   margin-top: 10px;
+}
+
+.footer-nav li a{
+   color: rgba(255, 255, 255, 0.5);
+   font-weight: 600;
+   text-decoration: none;
+   font-size: large;
+}
+
+.footer-nav li a:hover{
+   text-decoration: underline;
+   color: red;
+}
+
+.footer-icons h3{
+   color: rgb(255, 255, 255);
+   font-size: 32px;
+   font-weight: 700;
+}
+
+.footer-icons ul{
+   list-style: none;
+   margin-top: 30px;
+}
+
+.footer-icons li{
+ margin-top: 10px;
+}
+
+.footer-icons li a{
+   color: rgba(255, 255, 255, 0.5);
+  
+}
+
+.fa-brands{
+   font-size: x-large;
+}
+
+hr{
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   margin: 0px 200px;
+}
+
+.fitness-end{
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 20px;
+   font-weight: 400;
+   padding: 40px 0px;
+   text-align: center;
+}
 
 
 
@@ -621,7 +750,6 @@ th, td{
       margin: 0px 20px;
    }
 
-
    /* for BMI */
    .bmi-container{
    flex-direction: column;
@@ -641,6 +769,7 @@ th, td{
  }
 
 
+ /* responsive of team */
  .team-container {
   grid-template-columns: repeat(1, 1fr);
   margin: 0px auto;
@@ -651,4 +780,28 @@ th, td{
 }
 
 
+/* client container */
+.client-container{
+   grid-template-columns: repeat(1, 1fr);
+}
+
+.testimonial-carousel h1{
+   font-size: x-large;
+}
+
+
+/* responsive for footer section */
+
+.footer-container{
+   grid-template-columns: repeat(1, 1fr);
+   text-align: center;
+}
+
+.footer-heading p{
+   margin-bottom: 50px;
+}
+
+.footer-nav ul{
+   margin-bottom: 50px;
+}
 }
